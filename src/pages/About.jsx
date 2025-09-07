@@ -149,7 +149,7 @@ const AboutBanner = () => {
     <div className="row align-items-center g-4 my-3">
       <div className="col-lg-6">
       <img className="img-1 rounded" src={about_section_team_1} alt=""  />
-      <h3 class="service-title text-center"><a href="#">Menejar Name</a></h3>
+      <h3 class="service-title text-center"><Link to="/">Menejar Name</Link></h3>
       <p className="my-2 about-text text-center">
             There are many variations of passages of Lorem Ipsum available but
             the randomised words which don't look even slightly believable.
@@ -157,7 +157,7 @@ const AboutBanner = () => {
       </div>
       <div className="col-lg-6">
       <img className="img-2 rounded" src={about_section_team_2} alt="" />
-      <h3 className="service-title text-center"><a href="#">Menejar Name</a></h3>
+      <h3 className="service-title text-center"><Link to="/">Menejar Name</Link></h3>
       <p className="my-2 about-text text-center">
             There are many variations of passages of Lorem Ipsum available but
             the randomised words which don't look even slightly believable.

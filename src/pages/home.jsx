@@ -740,9 +740,9 @@ const Home = () => {
                                 <div className="row align-items-center">
                                     <div className="col-lg-12">
                                         <div className="video-wrap">
-                                            <a className="play-btn popup-youtube" href="https://www.youtube.com/watch?v=ckHzmP1evNU">
+                                            <Link className="play-btn popup-youtube" to="https://www.youtube.com/watch?v=ckHzmP1evNU">
                                                 <i className="fas fa-play"></i>
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -783,7 +783,7 @@ const Home = () => {
                                                 <li key={i}>{feature}</li>
                                             ))}
                                         </ul>
-                                        <a href={pricing.href} className="theme-btn">{pricing.button} <i className="fas fa-arrow-right"></i></a>
+                                        <Link to={pricing.href} className="theme-btn">{pricing.button} <i className="fas fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>

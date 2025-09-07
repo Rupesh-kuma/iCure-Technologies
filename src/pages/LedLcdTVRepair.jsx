@@ -33,27 +33,27 @@ const Ledcdtvrepair = () => {
                                         <div className="widget category">
                                             <h4 className="widget-title">All Services</h4>
                                             <div className="category-list">
-                                                <Link to="#">
+                                                <Link to="/industrialcardrepair">
                                                     <i className="far fa-angle-double-right" />
                                                     Industrial Card Repair
                                                 </Link>
-                                                <Link to="#">
+                                                <Link to="/ledcdtvrepair">
                                                     <i className="far fa-angle-double-right" />
                                                     Led / Lcd TV Repair
                                                 </Link>
-                                                <Link to="#">
+                                                <Link to="/vfddrivesrepair">
                                                     <i className="far fa-angle-double-right" />
                                                     VFD Drives Repair
                                                 </Link>
-                                                <Link to="#">
+                                                <Link to="/plcrepair">
                                                     <i className="far fa-angle-double-right" />
                                                     PLC Repair
                                                 </Link>
-                                                <Link to="#">
+                                                <Link to="/Controlcardsrepair">
                                                     <i className="far fa-angle-double-right" />
                                                     Control Cards Repair
                                                 </Link>
-                                                <Link to="#">
+                                                <Link to="/iotautomaticservice">
                                                     <i className="far fa-angle-double-right" />
                                                     IOT Automatic Service
                                                 </Link>
