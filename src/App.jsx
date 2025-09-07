@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './component/Navbar';
 import Footer from './component/footer';
 import Home from './pages/home';
-import Services from './pages/services';
+import Services from './pages/Services';
 import { Route,  Routes } from 'react-router-dom';
 import IndustrialCardRepair from './pages/IndustrialCardRepair';
 import Contact from './pages/Contact';
