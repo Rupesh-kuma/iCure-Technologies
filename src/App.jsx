@@ -2,7 +2,6 @@ import './App.css';
 import Navbar from './component/Navbar';
 import Footer from './component/footer';
 import Home from './pages/home';
-import About from './pages/about';
 import Services from './pages/services';
 import { Route,  Routes } from 'react-router-dom';
 import IndustrialCardRepair from './pages/IndustrialCardRepair';
@@ -13,12 +12,13 @@ import Vfddrivesrepair from './pages/VFDDrivesRepair';
 import Controlcardsrepair from './pages/Controlcardsrepair';
 import Plcrepair from './pages/PLCRepair';
 import Iotautomaticservice from './pages/IOTautomaticservice';
+import AboutBanner from './pages/About';
 
 function App() {
   
   const routing = [
     { paths: "/", elements: <Home /> },
-    { paths: "/about", elements: <About /> },
+    { paths: "/about", elements: <AboutBanner /> },
     { paths: "/service", elements: <Services /> },
     { paths: "/industrialcardrepair", elements: <IndustrialCardRepair /> },
     { paths: "/ledcdtvrepair", elements: <Ledcdtvrepair /> },
